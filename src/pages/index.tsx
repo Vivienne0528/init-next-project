@@ -1,5 +1,4 @@
+//src/pages/index.tsx
 export default function Home() {
-  return (
-    <button className="btn w-64 rounded-full">Button</button>
-  )
+  return <button className="btn w-64 rounded-full">Button</button>;
 }

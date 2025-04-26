@@ -1,0 +1,46 @@
+globalThis.__BUILD_MANIFEST = {
+  pages: {
+    "/": [
+      "static/chunks/node_modules_next_dist_f1d2d383._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/[root-of-the-server]__23b907f9._.js",
+      "static/chunks/src_pages_index_5771e187._.js",
+      "static/chunks/src_pages_index_271bd26b._.js",
+    ],
+    "/_app": [
+      "static/chunks/node_modules_next_dist_f1d2d383._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_@chakra-ui_react_dist_esm_fbaaa9af._.js",
+      "static/chunks/node_modules_react-icons_lu_index_mjs_c3127903._.js",
+      "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
+      "static/chunks/node_modules_@emotion_9f0cd7f0._.js",
+      "static/chunks/node_modules_@zag-js_8275c2fe._.js",
+      "static/chunks/node_modules_@floating-ui_fb8e8863._.js",
+      "static/chunks/node_modules_b2f17ff9._.js",
+      "static/chunks/[root-of-the-server]__8f43c963._.js",
+      "static/chunks/src_styles_globals_4738091e.css",
+      "static/chunks/src_pages__app_5771e187._.js",
+      "static/chunks/src_pages__app_e0efb017._.js",
+    ],
+    "/_error": [
+      "static/chunks/[root-of-the-server]__527cd323._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_a51498a5._.js",
+      "static/chunks/[root-of-the-server]__ca38f087._.js",
+      "static/chunks/src_pages__error_5771e187._.js",
+      "static/chunks/src_pages__error_b465be25._.js",
+    ],
+  },
+  devFiles: [],
+  ampDevFiles: [],
+  polyfillFiles: [],
+  lowPriorityFiles: [],
+  rootMainFiles: [],
+  ampFirstPages: [],
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+  "/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+  ,
+  "/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
+];

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["file:///Users/yuwei/Desktop/init-next-project/src/store/store.ts"],"sourcesContent":["import { configureStore } from \"@reduxjs/toolkit\";\n\nexport const store = configureStore({\n  reducer: {},\n});\n\n// Infer the `RootState` and `AppDispatch` types from the store itself\nexport type RootState = ReturnType<typeof store.getState>;\n// Inferred type: {posts: PostsState, comments: CommentsState, users: UsersState}\nexport type AppDispatch = typeof store.dispatch;\n"],"names":[],"mappings":";;;AAAA;;;;;;AAEO,MAAM,QAAQ,CAAA,GAAA,wIAAA,CAAA,iBAAc,AAAD,EAAE;IAClC,SAAS,CAAC;AACZ","debugId":null}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":["file:///Users/yuwei/Desktop/init-next-project/src/pages/_app.tsx"],"sourcesContent":["import { store } from \"@/store/store\";\nimport \"@/styles/globals.css\";\nimport { Provider } from \"@chakra-ui/react\";\nimport type { AppProps } from \"next/app\";\nimport { Provider } from \"react-redux\";\n\n\nexport default function App({ Component, pageProps }: AppProps) {\n  return (\n    <Provider store={store}>\n      <Provider>\n        <Component {...pageProps} />\n      </Provider>\n    </Provider>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AAEA;;;;;;;;;;;;;;;;AAKe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAY;IAC5D,qBACE,qKAAC;QAAS,OAAO,8GAAA,CAAA,QAAK;kBACpB,cAAA,qKAAC;sBACC,cAAA,qKAAC;gBAAW,GAAG,SAAS;;;;;;;;;;;;;;;;AAIhC","debugId":null}}]
+}
